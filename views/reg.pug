@@ -1,0 +1,23 @@
+extends layout.pug
+
+block content
+	h1 24
+	h1.text-center Регистрация
+	.form
+		form.form-horizontal(role='form' method='POST' style="width: 300px; margin: 0 auto; padding-top: 20px;")
+			.form-group
+				.form-group(style="margin-top: 20px")
+					label.col-sm-2.control-label(for='inputEmail3') Логин
+					.col-sm-10
+						input.form-control(type='text' placeholder='Логин' name='login')
+				.form-group(style="margin-top: 20px")
+					label.col-sm-2.control-label(for='inputPassword3') Пароль
+					.col-sm-10
+						input.form-control(type='password' placeholder='Пароль' name='password')
+				.form-group(style="margin-top: 20px")
+					label.col-sm-10.control-label(for='inputPassword3') Повторите пароль
+					.col-sm-10
+						input.form-control(type='password' placeholder='Пароль' name='password')
+				.form-group(style="margin-top: 20px")
+					.col-sm-offset-2.col-sm-10
+						input.btn.btn-primary(type='submit' value="Зарегистрироваться") 
