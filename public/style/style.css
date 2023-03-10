@@ -535,3 +535,11 @@ header a,
         color:#181D27;
         text-decoration: none;
       }
+
+      .form-container{
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }

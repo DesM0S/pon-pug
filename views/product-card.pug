@@ -1,10 +1,5 @@
 block product-card
   .product-card.product-card--3&attributes(attributes)(class=size)
-
-    a.product-card__like(href="#")
-      <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M19.125 5.0625C16.7625 5.0625 14.6812 6.24375 13.5 8.1C12.3188 6.24375 10.2375 5.0625 7.875 5.0625C4.1625 5.0625 1.125 8.1 1.125 11.8125C1.125 18.5062 13.5 25.3125 13.5 25.3125C13.5 25.3125 25.875 18.5625 25.875 11.8125C25.875 8.1 22.8375 5.0625 19.125 5.0625Z" fill="#D1D1D1"/>
-      </svg>
     a.product-card__img(href='product')
       if item.images[1]
         img.card-img-top(src=item.images[1], alt="#")
